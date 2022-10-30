@@ -17,9 +17,34 @@
     <!-- ======================================================== -->
     <!-- ENCABEZADO -->
     <!-- ======================================================== -->
-    <header class="container-fluid bg-black d-flex justify-content-center">
-        <p class="text-light mb-0 p-2 fs-5">Contactanos +57 320 769 9910</p>
+    <header class="container-fluid bg-black d-flex justify-content-center" id="contactanos">
+        <p class="text-light mb-0 p-2 fs-7" id="contactanos">Contactanos +57 320 769 9910</p>
     </header>
+        <div class="container-fluid bg-black p-0 text-white">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>CarsNice, Calle 64N, Popayán, Cauca</small>
+                </div>
+                <div class="d-inline-flex align-items-center py-3" id="horario_empresa">
+                    <small class="far fa-clock text-primary me-2" id="horario_empresa"></small>
+                    <small id="horario_empresa">Lunes - Viernes : 07.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+57 320 769 9910</small>
+                </div>
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn bg-primary btn-sm-square text-white me-1 mt-2" href=""><img src="./icons/facebook.svg" alt="facebook"></i></a>
+                    <a class="btn bg-white btn-sm-square text-white me-1 mt-2" href=""><img src="./icons/twitter.svg" alt="twitter"></i></a>
+                    <a class="btn btn-sm-square text-white me-0 mt-2" href="" id="instagram"><img src="./icons/instagram.svg" alt="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg bg-light pt-0 pb-0">
         <div class="container-fluid">
@@ -111,7 +136,7 @@
               <div class="container-fluid">
                   <div class="row align-items-center justify-content-center justify-content-sm-start">
                       <div class="col-10 col-lg-7 text-center text-sm-start">
-                          <h6 class="text-white text-uppercase mb-0 animated slideInDown" id="marca_destacados">ferrari</h6>
+                          <h6 class="text-white text-uppercase mb-0 animated slideInDown" id="marca_destacados">ford</h6>
                           <h6 class=" text-white mb-1 pb-1 animated slideInDown" id="modelo_destacados">Mustang (Desde 345 millones de pesos)</h6>
                           <a href="" class="btn btn-primary py-0 px-1 animated slideInDown" id="btn-destacados">Cotizar<i class="fa fa-arrow-right ms-0"></i></a>
                           <a href="" class="btn btn-primary py-0 px-1 animated slideInDown" id="btn-destacados">Más info<i class="fa fa-arrow-right ms-0"></i></a>
@@ -133,17 +158,74 @@
     <!-- ======================================================== -->
     <!-- Sobre nosotros -->
     <!-- ======================================================== -->
-    <hr class="featurette-divider">
+    <div class="container-fluid">
+      <div class="row featurette">
+        <div class="col-md-5 order-md-1 mt-4" id="años_experiencia">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="./icons/años_experiencia.svg" alt="años_experiencia" id="imagen_experiencia">
+        </div>
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Somos <span class="text-muted">CarsNice.</span></h2>
+          <p class="lead">Una vitrina especializada en autos de gama alta. En CarsNice amamos los carros de lujo y disfrutamos compartiendo esta pasión, por esto buscamos unir el carro ideal con la persona ideal basándonos en las expectativas y necesidades de nuestros clientes y amigos, acercándolos también a nuestro catálogo de servicios.</p>
+          <a href="" class="btn btn-primary py-0 px-1 animated slideInDown" id="btn-destacados">Más información...</a>
+        </div>
+      </div> 
+    </div>
+    <!-- ======================================================== -->
+    <!-- Nuestro Equipo -->
+    <!-- ======================================================== -->
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+    <!-- ======================================================== -->
+    <!-- Footer -->
+    <!-- ======================================================== -->
+  <div class="container-fluid bg-secondary pt-5 mt-5" style="--bs-bg-opacity: .1;">
+    <footer class="px-5">
+      <div class="row">
+        <div class="col-6 col-md-4 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black"><h5>Inicio</h5></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black"><h5>Sobre Nosotros</h5></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black"><h5>Equipo</h5></a></li>
+          </ul>
+          <p id="derechos_reservados">&copy; 2022 CarsNice, Todos los derechos reservados.</p>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="list-unstyled">
+            <li class="ms-3 d-flex align-items-center"><a class="btn bg-primary btn-sm-square" href="#"><img src="./icons/facebook.svg" alt="facebook" width="24" height="24"><a><p class="px-2 pt-2">CarsNice</p></li>
+            <li class="ms-3 mt-2 d-flex"><a class="btn bg-white btn-sm-square" href="#"><img src="./icons/twitter.svg" alt="twitter" width="24" height="24"></a><p class="px-2 pt-2">CarsNice</p></li>
+            <li class="ms-3 mt-2 d-flex"><a class="btn btn-sm-square" href="#" id="instagram"><img src="./icons/instagram.svg" alt="instagram" width="24" height="24"></a><p class="px-2 pt-2">CarsNice</p></li>
+          </ul>
+        </div>
+        <p id="derechos_reservados2">&copy; 2022 CarsNice, Todos los derechos reservados.</p>
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form class="needs-validation" novalidate>
+            <h5>Suscríbete</h5>
+            <p>Recibe anuncios mensual sobre nuestros productos</p>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, ingrese su nombre.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="mail" class="form-label">Correo Electronico</label>
+              <input type="email" class="form-control" id="mail" required>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, ingrese su correo electronico.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>      
+    </footer>
+  </div>
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/app.js"></script>
